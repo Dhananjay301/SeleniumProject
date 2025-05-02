@@ -30,6 +30,8 @@ public class ConditionalMethods {
 		searchBox.sendKeys("admin");
 		boolean usernameEnable=searchBox.isEnabled();
 		System.out.println("username is enabled= "+usernameEnable);
+		
+		driver.close();
 
 	}
 
