@@ -21,6 +21,7 @@ public class CheckBoxHandle {
 //		select singe check box
 		WebElement sundayCheck=driver.findElement(By.cssSelector("#sunday"));
 		sundayCheck.click();
+		Thread.sleep(2000);
 	
 //		multiple checkbox click
 //		
@@ -38,6 +39,12 @@ public class CheckBoxHandle {
 				checks.click();
 			}
 
+		}
+		
+//		Last 3 selected only
+		
+		for (int i=0; i<skipSelected.size()-4;i++) {
+			skipSelected.get(i).click();
 		}
 		
 		
