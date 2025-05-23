@@ -2,48 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-23T10:13:54 IST" name="Default suite" finished-at="2025-05-23T10:14:04 IST" duration-ms="10006">
+  <suite started-at="2025-05-23T11:02:13 IST" name="Default suite" finished-at="2025-05-23T11:02:17 IST" duration-ms="4062">
     <groups>
     </groups>
-    <test started-at="2025-05-23T10:13:54 IST" name="Default test" finished-at="2025-05-23T10:14:04 IST" duration-ms="10006">
-      <class name="testNG_Annotations.DataProviderTest">
-        <test-method signature="loginCases(java.lang.String,java.lang.String)[pri:0, instance:testNG_Annotations.DataProviderTest@41d477ed]" started-at="2025-05-23T10:13:54 IST" name="loginCases" data-provider="Datadrive" finished-at="2025-05-23T10:13:59 IST" duration-ms="5456" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-05-23T11:02:13 IST" name="Default test" finished-at="2025-05-23T11:02:17 IST" duration-ms="4062">
+      <class name="screenShotsTest.CaptureShreenshots">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenShotsTest.CaptureShreenshots@22555ebf]" started-at="2025-05-23T11:02:13 IST" name="setUp" finished-at="2025-05-23T11:02:17 IST" duration-ms="3560" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginCases -->
-        <test-method signature="loginCases(java.lang.String,java.lang.String)[pri:0, instance:testNG_Annotations.DataProviderTest@41d477ed]" started-at="2025-05-23T10:13:59 IST" name="loginCases" data-provider="Datadrive" finished-at="2025-05-23T10:14:03 IST" duration-ms="4233" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUp -->
+        <test-method signature="fullCaptureScreen()[pri:0, instance:screenShotsTest.CaptureShreenshots@22555ebf]" started-at="2025-05-23T11:02:17 IST" name="fullCaptureScreen" finished-at="2025-05-23T11:02:17 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG_Annotations.DataProviderTest@41d477ed]" started-at="2025-05-23T10:14:03 IST" name="tearDown" finished-at="2025-05-23T10:14:04 IST" duration-ms="251" status="PASS">
+        </test-method> <!-- fullCaptureScreen -->
+        <test-method signature="specificWeb()[pri:1, instance:screenShotsTest.CaptureShreenshots@22555ebf]" started-at="2025-05-23T11:02:17 IST" name="specificWeb" finished-at="2025-05-23T11:02:17 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testNG_Annotations.DataProviderTest -->
+        </test-method> <!-- specificWeb -->
+      </class> <!-- screenShotsTest.CaptureShreenshots -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 
 
@@ -29,11 +30,11 @@ public class DataProviderTest {
 	
 	@DataProvider(name="Datadrive")
 	public Object [][] getData(){
-		Object [][] data= { {"standard_user","secret_sauce"}, {"locked_out_user","secret_sauce"} };
+		Object [][] data= { {"standard_user","secret_sauce"}, {"performance_glitch_user","secret_sauce"} };
 		return data;
 	}
 	
-	@AfterClass
+	@AfterTest
 	void tearDown() {
 		driver.quit();
 	}
