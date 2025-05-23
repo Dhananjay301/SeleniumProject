@@ -2,28 +2,48 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-22T18:58:31 IST" name="Default suite" finished-at="2025-05-22T18:58:42 IST" duration-ms="11696">
+  <suite started-at="2025-05-23T10:13:54 IST" name="Default suite" finished-at="2025-05-23T10:14:04 IST" duration-ms="10006">
     <groups>
     </groups>
-    <test started-at="2025-05-22T18:58:31 IST" name="Default test" finished-at="2025-05-22T18:58:42 IST" duration-ms="11696">
-      <class name="javaScriptExecutor.JavaScriptEx">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:javaScriptExecutor.JavaScriptEx@3c41ed1d]" started-at="2025-05-22T18:58:31 IST" name="setUp" finished-at="2025-05-22T18:58:39 IST" duration-ms="7827" status="PASS">
+    <test started-at="2025-05-23T10:13:54 IST" name="Default test" finished-at="2025-05-23T10:14:04 IST" duration-ms="10006">
+      <class name="testNG_Annotations.DataProviderTest">
+        <test-method signature="loginCases(java.lang.String,java.lang.String)[pri:0, instance:testNG_Annotations.DataProviderTest@41d477ed]" started-at="2025-05-23T10:13:54 IST" name="loginCases" data-provider="Datadrive" finished-at="2025-05-23T10:13:59 IST" duration-ms="5456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="action()[pri:1, instance:javaScriptExecutor.JavaScriptEx@3c41ed1d]" started-at="2025-05-22T18:58:39 IST" name="action" finished-at="2025-05-22T18:58:39 IST" duration-ms="149" status="PASS">
+        </test-method> <!-- loginCases -->
+        <test-method signature="loginCases(java.lang.String,java.lang.String)[pri:0, instance:testNG_Annotations.DataProviderTest@41d477ed]" started-at="2025-05-23T10:13:59 IST" name="loginCases" data-provider="Datadrive" finished-at="2025-05-23T10:14:03 IST" duration-ms="4233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- action -->
-        <test-method signature="scrollPage()[pri:2, instance:javaScriptExecutor.JavaScriptEx@3c41ed1d]" started-at="2025-05-22T18:58:39 IST" name="scrollPage" finished-at="2025-05-22T18:58:39 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:javaScriptExecutor.JavaScriptEx@3c41ed1d]" started-at="2025-05-22T18:58:39 IST" name="tearDown" finished-at="2025-05-22T18:58:42 IST" duration-ms="3537" status="PASS">
+        </test-method> <!-- loginCases -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG_Annotations.DataProviderTest@41d477ed]" started-at="2025-05-23T10:14:03 IST" name="tearDown" finished-at="2025-05-23T10:14:04 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- javaScriptExecutor.JavaScriptEx -->
+      </class> <!-- testNG_Annotations.DataProviderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
