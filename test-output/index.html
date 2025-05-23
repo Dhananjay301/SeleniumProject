@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-ScreenShots" class="navigator-link">
-              <span class="suite-name border-passed">ScreenShots</span>
+            <a href="#" panel-name="suite-ListnerTest" class="navigator-link">
+              <span class="suite-name border-failed">ListnerTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-ScreenShots" class="navigator-link ">
-                    <span>D:\Workspace\selenium\seleniumWebdriver\screenShotTestNG.xml</span>
+                  <a href="#" panel-name="test-xml-ListnerTest" class="navigator-link ">
+                    <span>D:\Workspace\selenium\seleniumWebdriver\src\test\java\listners\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-ScreenShots" class="navigator-link ">
+                  <a href="#" panel-name="testlist-ListnerTest" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-ScreenShots" class="navigator-link ">
+                  <a href="#" panel-name="group-ListnerTest" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-ScreenShots" class="navigator-link ">
+                  <a href="#" panel-name="times-ListnerTest" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-ScreenShots" class="navigator-link ">
+                  <a href="#" panel-name="reporter-ListnerTest" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-ScreenShots" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-ListnerTest" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-ScreenShots" class="navigator-link ">
+                  <a href="#" panel-name="chronological-ListnerTest" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,36 +92,54 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,  1 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ListnerTest" class="hide-methods failed suite-ListnerTest"> (hide)</a> <!-- hide-methods failed suite-ListnerTest -->
+                      <a href="#" panel-name="suite-ListnerTest" class="show-methods failed suite-ListnerTest"> (show)</a> <!-- show-methods failed suite-ListnerTest -->
+                    </span>
+                    <div class="method-list-content failed suite-ListnerTest">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ListnerTest" title="listners.TestCaseLogin" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ListnerTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ListnerTest" class="hide-methods skipped suite-ListnerTest"> (hide)</a> <!-- hide-methods skipped suite-ListnerTest -->
+                      <a href="#" panel-name="suite-ListnerTest" class="show-methods skipped suite-ListnerTest"> (show)</a> <!-- show-methods skipped suite-ListnerTest -->
+                    </span>
+                    <div class="method-list-content skipped suite-ListnerTest">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ListnerTest" title="listners.TestCaseLogin" class="method navigator-link" hash-for-method="verifyProductDisplayed">verifyProductDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ListnerTest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-ScreenShots" class="hide-methods passed suite-ScreenShots"> (hide)</a> <!-- hide-methods passed suite-ScreenShots -->
-                      <a href="#" panel-name="suite-ScreenShots" class="show-methods passed suite-ScreenShots"> (show)</a> <!-- show-methods passed suite-ScreenShots -->
+                      <a href="#" panel-name="suite-ListnerTest" class="hide-methods passed suite-ListnerTest"> (hide)</a> <!-- hide-methods passed suite-ListnerTest -->
+                      <a href="#" panel-name="suite-ListnerTest" class="show-methods passed suite-ListnerTest"> (show)</a> <!-- show-methods passed suite-ListnerTest -->
                     </span>
-                    <div class="method-list-content passed suite-ScreenShots">
+                    <div class="method-list-content passed suite-ListnerTest">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ScreenShots" title="screenShotsTest.CaptureShreenshots" class="method navigator-link" hash-for-method="fullCaptureScreen">fullCaptureScreen</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ListnerTest" title="listners.TestCaseLogin" class="method navigator-link" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ScreenShots" title="testNG_Annotations.DataProviderTest" class="method navigator-link" hash-for-method="loginCases(standard_user, secret_sauce)">loginCases(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ListnerTest" title="listners.TestCaseLogin" class="method navigator-link" hash-for-method="userLogin">userLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ScreenShots" title="testNG_Annotations.DataProviderTest" class="method navigator-link" hash-for-method="loginCases(performance_glitch_user, secret_sauce)">loginCases(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ScreenShots" title="screenShotsTest.CaptureShreenshots" class="method navigator-link" hash-for-method="specificWeb">specificWeb</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-ScreenShots -->
+                    </div> <!-- method-list-content passed suite-ListnerTest -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -132,101 +150,119 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-ScreenShots" class="panel ScreenShots">
-          <div class="suite-ScreenShots-class-passed">
+        <div panel-name="suite-ListnerTest" class="panel ListnerTest">
+          <div class="suite-ListnerTest-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testNG_Annotations.DataProviderTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">listners.TestCaseLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginCases(standard_user, secret_sauce)">
-                  </a> <!-- loginCases(standard_user, secret_sauce) -->
-                  <span class="method-name">loginCases</span>
-                  <span class="parameters">(standard_user,secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginCases(performance_glitch_user, secret_sauce)">
-                  </a> <!-- loginCases(performance_glitch_user, secret_sauce) -->
-                  <span class="method-name">loginCases</span>
-                  <span class="parameters">(performance_glitch_user,secret_sauce)</span>
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Swag Labs_1] but found [Swag Labs]
+	at listners.TestCaseLogin.verifyTitle(TestCaseLogin.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ScreenShots-class-passed -->
-          <div class="suite-ScreenShots-class-passed">
+          </div> <!-- suite-ListnerTest-class-failed -->
+          <div class="suite-ListnerTest-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">screenShotsTest.CaptureShreenshots</span>
+              <img src="skipped.png"/>
+              <span class="class-name">listners.TestCaseLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="fullCaptureScreen">
-                  </a> <!-- fullCaptureScreen -->
-                  <span class="method-name">fullCaptureScreen</span>
+                  <a name="verifyProductDisplayed">
+                  </a> <!-- verifyProductDisplayed -->
+                  <span class="method-name">verifyProductDisplayed</span>
+                  <div class="stack-trace">java.lang.Throwable: Method listners.TestCaseLogin.verifyProductDisplayed() on instance listners.TestCaseLogin@6302bbb1 depends on not successfully finished methods 
+[listners.TestCaseLogin.verifyTitle() on instance listners.TestCaseLogin@6302bbb1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ListnerTest-class-skipped -->
+          <div class="suite-ListnerTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">listners.TestCaseLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="specificWeb">
-                  </a> <!-- specificWeb -->
-                  <span class="method-name">specificWeb</span>
+                  <a name="userLogin">
+                  </a> <!-- userLogin -->
+                  <span class="method-name">userLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ScreenShots-class-passed -->
-        </div> <!-- panel ScreenShots -->
-        <div panel-name="test-xml-ScreenShots" class="panel">
+          </div> <!-- suite-ListnerTest-class-passed -->
+        </div> <!-- panel ListnerTest -->
+        <div panel-name="test-xml-ListnerTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Workspace\selenium\seleniumWebdriver\screenShotTestNG.xml</span>
+            <span class="header-content">D:\Workspace\selenium\seleniumWebdriver\src\test\java\listners\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;ScreenShots&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;CaptureIt&quot;&gt;
+&lt;suite name=&quot;ListnerTest&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listners.MyListners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestListner&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;screenShotsTest.CaptureShreenshots&quot;/&gt;
-      &lt;class name=&quot;testNG_Annotations.DataProviderTest&quot;/&gt;
+      &lt;class name=&quot;listners.TestCaseLogin&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- CaptureIt --&gt;
-&lt;/suite&gt; &lt;!-- ScreenShots --&gt;
+  &lt;/test&gt; &lt;!-- TestListner --&gt;
+&lt;/suite&gt; &lt;!-- ListnerTest --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-ScreenShots" class="panel">
+        <div panel-name="testlist-ListnerTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for ScreenShots</span>
+            <span class="header-content">Tests for ListnerTest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">CaptureIt (2 classes)</span>
+                <span class="test-name">TestListner (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-ScreenShots" class="panel">
+        <div panel-name="group-ListnerTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for ScreenShots</span>
+            <span class="header-content">Groups for ListnerTest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-ScreenShots" class="panel">
+        <div panel-name="times-ListnerTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for ScreenShots</span>
+            <span class="header-content">Times for ListnerTest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_ScreenShots');
-function tableData_ScreenShots() {
+suiteTableInitFunctions.push('tableData_ListnerTest');
+function tableData_ListnerTest() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -234,79 +270,66 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginCases')
-data.setCell(0, 2, 'testNG_Annotations.DataProviderTest')
-data.setCell(0, 3, 10425);
+data.setCell(0, 1, 'userLogin')
+data.setCell(0, 2, 'listners.TestCaseLogin')
+data.setCell(0, 3, 3676);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginCases')
-data.setCell(1, 2, 'testNG_Annotations.DataProviderTest')
-data.setCell(1, 3, 4794);
+data.setCell(1, 1, 'setUp')
+data.setCell(1, 2, 'listners.TestCaseLogin')
+data.setCell(1, 3, 2803);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'fullCaptureScreen')
-data.setCell(2, 2, 'screenShotsTest.CaptureShreenshots')
-data.setCell(2, 3, 253);
+data.setCell(2, 1, 'verifyTitle')
+data.setCell(2, 2, 'listners.TestCaseLogin')
+data.setCell(2, 3, 123);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'specificWeb')
-data.setCell(3, 2, 'screenShotsTest.CaptureShreenshots')
-data.setCell(3, 3, 202);
-window.suiteTableData['ScreenShots']= { tableData: data, tableDiv: 'times-div-ScreenShots'}
+data.setCell(3, 1, 'verifyProductDisplayed')
+data.setCell(3, 2, 'listners.TestCaseLogin')
+data.setCell(3, 3, 2);
+window.suiteTableData['ListnerTest']= { tableData: data, tableDiv: 'times-div-ListnerTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
-              <div id="times-div-ScreenShots">
-              </div> <!-- times-div-ScreenShots -->
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-ListnerTest">
+              </div> <!-- times-div-ListnerTest -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-ScreenShots" class="panel">
+        <div panel-name="reporter-ListnerTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for ScreenShots</span>
+            <span class="header-content">Reporter output for ListnerTest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-ScreenShots" class="panel">
+        <div panel-name="ignored-methods-ListnerTest" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-ScreenShots" class="panel">
+        <div panel-name="chronological-ListnerTest" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">screenShotsTest.CaptureShreenshots</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="chronological-class-name">listners.TestCaseLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">fullCaptureScreen</span>
-                <span class="method-start">2757 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">specificWeb</span>
-                <span class="method-start">3023 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testNG_Annotations.DataProviderTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">loginCases(standard_user, secret_sauce)</span>
-                <span class="method-start">3258 ms</span>
+                <span class="method-name">userLogin</span>
+                <span class="method-start">2830 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">loginCases(performance_glitch_user, secret_sauce)</span>
-                <span class="method-start">8055 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">6547 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">18487 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

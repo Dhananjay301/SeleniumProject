@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_Annotations.DataProviderTest">
+      <class name="listners.TestCaseLogin">
         <methods>
-          <include name="loginCases" invocation-numbers="0 1"/>
+          <include name="verifyTitle"/>
+          <include name="verifyProductDisplayed"/>
         </methods>
-      </class> <!-- testNG_Annotations.DataProviderTest -->
+      </class> <!-- listners.TestCaseLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

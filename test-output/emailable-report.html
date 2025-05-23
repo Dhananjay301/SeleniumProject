@@ -8,14 +8,20 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">ScreenShots</th></tr>
-<tr><td><a href="#t0">CaptureIt</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,019</td><td></td><td></td></tr>
+<tr><th colspan="8">ListnerTest</th></tr>
+<tr><td><a href="#t0">TestListner</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,789</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ScreenShots</th></tr></tbody><tbody id="t0"><tr><th colspan="4">CaptureIt &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">screenShotsTest.CaptureShreenshots</td><td><a href="#m0">fullCaptureScreen</a></td><td rowspan="1">1747979726623</td><td rowspan="1">253</td></tr><tr class="passedeven"><td><a href="#m1">specificWeb</a></td><td rowspan="1">1747979726889</td><td rowspan="1">202</td></tr><tr class="passedodd"><td rowspan="2">testNG_Annotations.DataProviderTest</td><td><a href="#m2">loginCases</a></td><td rowspan="2">1747979727124</td><td rowspan="2">4794</td></tr><tr class="passedodd"><td><a href="#m3">loginCases</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ListnerTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestListner &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">listners.TestCaseLogin</td><td><a href="#m0">verifyTitle</a></td><td rowspan="1">1747993923398</td><td rowspan="1">123</td></tr><tr><th colspan="4">TestListner &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">listners.TestCaseLogin</td><td><a href="#m1">verifyProductDisplayed</a></td><td rowspan="1">1747993923537</td><td rowspan="1">2</td></tr><tr><th colspan="4">TestListner &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">listners.TestCaseLogin</td><td><a href="#m2">setUp</a></td><td rowspan="1">1747993916851</td><td rowspan="1">2803</td></tr><tr class="passedeven"><td><a href="#m3">userLogin</a></td><td rowspan="1">1747993919681</td><td rowspan="1">3676</td></tr></tbody>
 </table>
-<h2>CaptureIt</h2><h3 id="m0">screenShotsTest.CaptureShreenshots#fullCaptureScreen</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">screenShotsTest.CaptureShreenshots#specificWeb</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testNG_Annotations.DataProviderTest#loginCases</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>standard_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testNG_Annotations.DataProviderTest#loginCases</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>performance_glitch_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestListner</h2><h3 id="m0">listners.TestCaseLogin#verifyTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Swag Labs_1] but found [Swag Labs]
+	at listners.TestCaseLogin.verifyTitle(TestCaseLogin.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">listners.TestCaseLogin#verifyProductDisplayed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method listners.TestCaseLogin.verifyProductDisplayed() on instance listners.TestCaseLogin@6302bbb1 depends on not successfully finished methods 
+[listners.TestCaseLogin.verifyTitle() on instance listners.TestCaseLogin@6302bbb1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">listners.TestCaseLogin#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">listners.TestCaseLogin#userLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
