@@ -24,10 +24,10 @@ public class ReadPropertiesFile {
 		System.out.println(prop.getProperty("browser"));   // updated at run time but not updated in prop file
 
      	
-////		And want to update the prop file use FOS
-//		FileOutputStream fos=new FileOutputStream("D:/Workspace/selenium/seleniumWebdriver/src/test/resources/config.properties");
-//		prop.store(fos, null);
-//		System.out.println(prop.getProperty("browser"));
+//		And want to update the prop file use FOS
+		FileOutputStream fos=new FileOutputStream("D:/Workspace/selenium/seleniumWebdriver/src/test/resources/config.properties");
+		prop.store(fos, null);
+		System.out.println(prop.getProperty("browser"));
 		
 	}
 

@@ -1,4 +1,4 @@
-package testCases;
+package loginTestCases;
 
 import java.time.Duration;
 
@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-import pages.LoginPage;
+import loginPages.LoginPage;
 
 public class LoginTest {
 	WebDriver driver;
