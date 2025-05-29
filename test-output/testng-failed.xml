@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [ListnerTest]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="listners.MyListners"/>
-  </listeners>
-  <test thread-count="5" name="TestListner(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listners.TestCaseLogin">
+      <class name="handleMultipleLinks.MultpleAtagLinksHandle">
         <methods>
-          <include name="verifyTitle"/>
-          <include name="verifyProductDisplayed"/>
+          <include name="webElements"/>
         </methods>
-      </class> <!-- listners.TestCaseLogin -->
+      </class> <!-- handleMultipleLinks.MultpleAtagLinksHandle -->
     </classes>
-  </test> <!-- TestListner(failed) -->
-</suite> <!-- Failed suite [ListnerTest] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
