@@ -29,8 +29,8 @@ public class DataProviderTest {
 	}
 	
 	@DataProvider(name="Datadrive")
-	public Object [][] getData(){
-		Object [][] data= { {"standard_user","secret_sauce"}, {"performance_glitch_user","secret_sauce"} };
+	public String [][] getData(){
+		String [][] data= { {"standard_user","secret_sauce"}, {"performance_glitch_user","secret_sauce"} };
 		return data;
 	}
 	

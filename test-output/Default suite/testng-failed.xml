@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="handleMultipleLinks.MultpleAtagLinksHandle">
+      <class name="brokenLinks.BrokenLinks">
         <methods>
-          <include name="webElements"/>
+          <include name="brokenLinks"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- handleMultipleLinks.MultpleAtagLinksHandle -->
+      </class> <!-- brokenLinks.BrokenLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
