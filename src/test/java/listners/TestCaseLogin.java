@@ -39,7 +39,7 @@ public class TestCaseLogin {
 	void verifyTitle() {
 		String title=driver.getTitle();
 		System.out.println("title=== "+title);
-		Assert.assertEquals(title, "Swag Labs_1");
+		Assert.assertEquals(title, "Swag Labs");
 	}
 	
 	@Test (priority=3, dependsOnMethods= {"verifyTitle"})
