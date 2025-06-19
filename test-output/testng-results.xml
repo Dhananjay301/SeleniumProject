@@ -1,21 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-16T11:49:06 IST" name="Default suite" finished-at="2025-06-16T11:49:39 IST" duration-ms="32975">
+  <suite started-at="2025-06-17T12:03:23 IST" name="ListnerTest" finished-at="2025-06-17T12:03:34 IST" duration-ms="11201">
     <groups>
     </groups>
-    <test started-at="2025-06-16T11:49:06 IST" name="Default test" finished-at="2025-06-16T11:49:39 IST" duration-ms="32975">
-      <class name="brokenLinks.BrokenLinks">
-        <test-method signature="setUp()[pri:1, instance:brokenLinks.BrokenLinks@48f2bd5b]" started-at="2025-06-16T11:49:06 IST" name="setUp" finished-at="2025-06-16T11:49:13 IST" duration-ms="6845" status="PASS">
+    <test started-at="2025-06-17T12:03:23 IST" name="TestListner" finished-at="2025-06-17T12:03:34 IST" duration-ms="11201">
+      <class name="listners.TestCaseLogin">
+        <test-method signature="setUp()[pri:0, instance:listners.TestCaseLogin@4c583ecf]" started-at="2025-06-17T12:03:23 IST" name="setUp" finished-at="2025-06-17T12:03:30 IST" duration-ms="6698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="brokenLinks()[pri:0, instance:brokenLinks.BrokenLinks@48f2bd5b]" started-at="2025-06-16T11:49:13 IST" name="brokenLinks" finished-at="2025-06-16T11:49:39 IST" depends-on-methods="brokenLinks.BrokenLinks.setUp" duration-ms="26043" status="PASS">
+        <test-method signature="userLogin()[pri:1, instance:listners.TestCaseLogin@4c583ecf]" started-at="2025-06-17T12:03:30 IST" name="userLogin" finished-at="2025-06-17T12:03:34 IST" duration-ms="4261" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- brokenLinks -->
-      </class> <!-- brokenLinks.BrokenLinks -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- userLogin -->
+        <test-method signature="verifyTitle()[pri:2, instance:listners.TestCaseLogin@4c583ecf]" started-at="2025-06-17T12:03:34 IST" name="verifyTitle" finished-at="2025-06-17T12:03:34 IST" duration-ms="42" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Swag Labs_1] but found [Swag Labs]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Swag Labs_1] but found [Swag Labs]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at listners.TestCaseLogin.verifyTitle(TestCaseLogin.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyProductDisplayed()[pri:3, instance:listners.TestCaseLogin@4c583ecf]" started-at="2025-06-17T12:03:34 IST" name="verifyProductDisplayed" finished-at="2025-06-17T12:03:34 IST" depends-on-methods="listners.TestCaseLogin.verifyTitle" duration-ms="4" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method listners.TestCaseLogin.verifyProductDisplayed() on instance listners.TestCaseLogin@4c583ecf depends on not successfully finished methods 
+[listners.TestCaseLogin.verifyTitle() on instance listners.TestCaseLogin@4c583ecf]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method listners.TestCaseLogin.verifyProductDisplayed() on instance listners.TestCaseLogin@4c583ecf depends on not successfully finished methods 
+[listners.TestCaseLogin.verifyTitle() on instance listners.TestCaseLogin@4c583ecf]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDisplayed -->
+      </class> <!-- listners.TestCaseLogin -->
+    </test> <!-- TestListner -->
+  </suite> <!-- ListnerTest -->
 </testng-results>

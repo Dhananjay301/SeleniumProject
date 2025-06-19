@@ -35,7 +35,7 @@ public class BrokenLinks {
 				String hrefValue = linkElement.getAttribute("href");
 				if (hrefValue == null || hrefValue.isEmpty()) {
 					System.out.println("Not possible to check links");
-					Continue;
+//					Continue;
 				}
 				URL linkUrl = new URL(hrefValue);
 				HttpURLConnection conn = (HttpURLConnection) linkUrl.openConnection();
