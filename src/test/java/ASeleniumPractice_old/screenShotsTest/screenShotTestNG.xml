@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ScreenShots">
+  <test thread-count="5" name="CaptureIt">
+    <classes>
+      <class name="ASeleniumPractice_old.screenShotsTest.CaptureShreenshots"/>
+      <class name="ASeleniumPractice_old.testNG_Annotations.DataProviderTest"/>
+    </classes>
+  </test> <!-- CaptureIt -->
+</suite> <!-- ScreenShots -->
